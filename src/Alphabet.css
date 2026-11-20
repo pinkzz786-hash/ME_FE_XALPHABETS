@@ -39,7 +39,7 @@
     cursor: pointer;
 }
 
-input.search {
+.search {
     width: 70%;
     height: 40px;
     border-radius: 3px;

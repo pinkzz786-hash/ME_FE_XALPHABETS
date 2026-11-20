@@ -1,15 +1,12 @@
 
+import Alphabet from './Alphabet';
 
-import './App.css'
-import Alphabet from './Alphabet'
 function App() {
-
-
-  return (
-    <>
-     <Alphabet/>
-    </>
-  )
+    return (
+        <div>
+            <Alphabet />
+        </div>
+    );
 }
 
-export default App
+export default App;
