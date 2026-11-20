@@ -16,18 +16,15 @@ function Alphabet() {
     };
 
     return (
-        <div className="output">
+        <div className="container">
+
             <h1>Alphabet Buttons</h1>
 
             <p>Click letters(or use the keyboard) to build words!</p>
 
-            <input
-                className="search"
-                type="text"
-                value={text}
-                onChange={(e) => setText(e.target.value)}
-                placeholder="Your text will appear here..."
-            />
+            <div className="output">
+                {text}
+            </div>
 
             <div className="backspace">
                 <button onClick={handleBackspace}>
@@ -46,6 +43,7 @@ function Alphabet() {
                     </button>
                 ))}
             </div>
+
         </div>
     );
 }

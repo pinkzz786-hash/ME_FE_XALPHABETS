@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.output {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,11 +17,19 @@
     border-radius: 10px;
 }
 
+.output {
+    width: 70%;
+    min-height: 40px;
+    border-radius: 3px;
+    border: solid 1px #b0b0b0;
+    padding: 10px;
+    margin: 20px;
+}
+
 .alphabetcontainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 58px;
     margin: 25px;
@@ -34,18 +42,9 @@
     border-radius: 3px;
     background: #fff;
     border: solid 1px #b0b0b0;
-    color: #000000;
+    color: #000;
     font-weight: bold;
     cursor: pointer;
-}
-
-.search {
-    width: 70%;
-    height: 40px;
-    border-radius: 3px;
-    border: solid 1px #b0b0b0;
-    padding-left: 10px;
-    margin: 20px;
 }
 
 .backspace {
@@ -60,7 +59,7 @@
     border-radius: 3px;
     background: #fff;
     border: solid 1px #b0b0b0;
-    color: #000000;
+    color: #000;
     font-weight: bold;
     cursor: pointer;
 }
