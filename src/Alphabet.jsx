@@ -16,7 +16,7 @@ function Alphabet() {
   };
 
   return (
-    <div className="output">
+    <div className={styles.output}>
       <h1>Alphabet Buttons</h1>
 
       <p>Click letters(or use the keyboard) to build words!</p>
